@@ -1,4 +1,16 @@
-import { BookOpen, CodeXml, Database, GraduationCap, MonitorSmartphone, Rocket, Server, Wrench } from "lucide-react";
+import {
+  BookOpen,
+  ClipboardList,
+  Wallet,
+  Laptop,
+  CodeXml,
+  Database,
+  GraduationCap,
+  MonitorSmartphone,
+  Rocket,
+  Server,
+  Wrench,
+} from "lucide-react";
 import { InfoCardProps, SkillCard } from "./types/types";
 
 export const infoCards = [
@@ -67,20 +79,24 @@ export const achievements = [
 
 export const experience = [
   {
+    icon: Laptop,
+    title: "Built a several responsive full-stack personal applications.",
+    text: "Here is the list of some of them ...",
+  },
+  {
+    icon: Wallet,
+    title: "Expense Tracker",
+    text: "Built a responsive full-stack personal finance management application with modern web technologies.",
+  },
+  {
+    icon: ClipboardList,
+    title: "Porject Tracker",
+    text: "Built responsive full-stack project management application with GitHub authentication.",
+  },
+  {
     icon: GraduationCap,
-    title: "At my startup",
-    subTitle: "Web Development Education",
-    text: "Completed web developer education and developed a foundation in modern web technologies.",
-  },
-  {
-    icon: CodeXml,
-    title: "Full-Stack Development",
-    text: "Built responsive applications with Next.js, TypeScript, Tailwind CSS, Supabase, and Prisma through practical project work.",
-  },
-  {
-    icon: Rocket,
-    title: "Freelance Developer Journey",
-    text: "Developing real-world portfolio projects and preparing to offer web development services on freelance platforms.",
+    title: "BB Portfolio",
+    text: "Built my developer portfolio with all the links to my practical projects togather with Anti spam form.",
   },
 ] satisfies InfoCardProps[];
 
