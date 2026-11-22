@@ -80,8 +80,8 @@ export const achievements = [
 export const experience = [
   {
     icon: Laptop,
-    title: "Built a several responsive full-stack personal applications.",
-    text: "Here is the list of some of them ...",
+    title: "Practical Experiences",
+    text: "Built a several responsive full-stack personal applications to sharpen my learning curve.  Here is the list of some of them ...",
   },
   {
     icon: Wallet,
